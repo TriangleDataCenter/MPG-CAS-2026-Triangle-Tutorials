@@ -1,0 +1,19 @@
+# Extra Python packages used by the tutorial notebooks.
+#
+# Install into the tri_env environment, after Triangle-Simulator:
+#     conda activate tri_env
+#     uv pip install -r requirements.txt
+#
+# Notebook 01 needs only Triangle-Simulator and Jupyter.
+# Notebooks 02-05 need the sampling stack below (bilby + nessai).
+# Triangle-GB and Triangle-BBH are installed separately from their own
+# repositories; see README.md.
+
+jupyterlab
+ipykernel
+
+bilby==2.3.0
+nessai==0.14.0.post0
+nessai-bilby==0.1.0.post0
+torch>=2.0
+tqdm

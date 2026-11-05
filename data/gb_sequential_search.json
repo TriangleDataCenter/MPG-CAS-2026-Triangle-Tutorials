@@ -1,0 +1,93 @@
+{
+  "duration_days": 365.25,
+  "sample_interval_s": 60.0,
+  "frequency_bins": 171,
+  "frequency_spacing_Hz": 3.168808781402895e-08,
+  "source_separation_bins": 18.0,
+  "source_separation_Hz": 5.703855806525211e-07,
+  "noise_seed": 20261111,
+  "injections": [
+    {
+      "A": 4.900209380925449e-23,
+      "f0": 0.00400000855578371,
+      "fdot0": 2e-16,
+      "phase0": 0.8,
+      "inclination": 1.1,
+      "longitude": 4.5,
+      "latitude": -0.3,
+      "psi": 0.7
+    },
+    {
+      "A": 2.9638472393920797e-23,
+      "f0": 0.004000578941364363,
+      "fdot0": 3e-16,
+      "phase0": 2.0,
+      "inclination": 0.9,
+      "longitude": 1.8,
+      "latitude": 0.45,
+      "psi": 0.2
+    }
+  ],
+  "optimal_AE_SNR": [
+    55.0,
+    40.0
+  ],
+  "single_search": {
+    "parameters": {
+      "f0": 0.0040000120491376235,
+      "fdot0": 8.316167176479256e-21,
+      "longitude": 4.499461796693902,
+      "latitude": -0.31911226682827065
+    },
+    "F": 1488.3676998458182,
+    "iterations": 109,
+    "batch_evaluations": 130,
+    "converged": true,
+    "message": "Optimization terminated successfully.",
+    "seconds": 18.566727542000002,
+    "seed": 20261112
+  },
+  "first_search": {
+    "parameters": {
+      "f0": 0.004000010190403802,
+      "fdot0": 1.3285648975658377e-16,
+      "longitude": 4.502376075404428,
+      "latitude": -0.305496562522477
+    },
+    "F": 1546.4340689061805,
+    "iterations": 110,
+    "batch_evaluations": 131,
+    "converged": true,
+    "message": "Optimization terminated successfully.",
+    "seconds": 17.908080375,
+    "seed": 20261113
+  },
+  "second_search": {
+    "parameters": {
+      "f0": 0.004000574589845391,
+      "fdot0": 5.999917803095474e-16,
+      "longitude": 1.8097796085141213,
+      "latitude": 0.4637211467824545
+    },
+    "F": 795.2237355866633,
+    "iterations": 107,
+    "batch_evaluations": 133,
+    "converged": true,
+    "message": "Optimization terminated successfully.",
+    "seconds": 17.536016625,
+    "seed": 20261114
+  },
+  "residual_norm_squared": [
+    5320.521158146799,
+    2227.653020334438,
+    637.2055491611119
+  ],
+  "algorithm": "Native TDIFlyGB F-statistic + four-dimensional differential evolution; reconstruct, subtract, search residual.",
+  "channels_used_for_search": [
+    "A2",
+    "E2"
+  ],
+  "channel_displayed": "A2",
+  "assumptions": "Known narrow band; two partially overlapping circular binaries; fixed diagonal narrow-band PSD. Sequential subtraction without joint refinement.",
+  "source": "Adapted from Triangle-GB Examples 0 and 1; self-generated data, separate from the saved TDC nessai example."
+}

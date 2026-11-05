@@ -1,0 +1,17 @@
+{
+  "python": "3.9.19",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "matplotlib": "3.9.4",
+  "pandas": "2.3.0",
+  "nbformat": "5.10.4",
+  "nbclient": "0.10.2",
+  "ipykernel": "6.29.5",
+  "bilby": "2.3.0",
+  "nessai": "0.14.0.post0",
+  "nessai-bilby": "0.1.0.post0",
+  "torch": "2.7.1",
+  "h5py": "3.13.0",
+  "healpy": "1.17.3",
+  "pycbc": "2.7.2"
+}

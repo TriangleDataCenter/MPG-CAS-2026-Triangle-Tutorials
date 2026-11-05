@@ -1,0 +1,198 @@
+{
+  "nessai_label": "double_midphase",
+  "seed": 20261125,
+  "steps": 2400,
+  "walkers": 64,
+  "burn": 600,
+  "elapsed_seconds": 180.7937831878662,
+  "acceptance": 0.10302734375,
+  "method": "Independent emcee DE/snooker ensemble with identical native likelihood and priors, initialised from nessai local posterior.",
+  "scope": "Local marginal audit only; no independent global-mode/evidence claim. Lecture uses nessai draws unchanged.",
+  "nessai_final_insertion_p_value": 0.005669907795843207,
+  "minimum_estimated_ess": 839.8609220259193,
+  "maximum_tau": 137.16556751100364,
+  "maximum_mean_shift_in_nessai_sigma": 0.0687303390294964,
+  "minimum_std_ratio": 0.9491277633513124,
+  "maximum_std_ratio": 1.0089106333692954,
+  "maximum_5_50_95_quantile_shift_in_nessai_sigma": 0.15702454666604546,
+  "parameters": {
+    "df_1": {
+      "tau": 81.307520089207,
+      "ess": 1416.8431145557959,
+      "mean_shift_in_nessai_sigma": 0.011105852913828602,
+      "std_ratio": 0.950097633357614,
+      "quantile_shift_in_nessai_sigma": [
+        0.09583664721885496,
+        0.02422051942960029,
+        0.02716118312898334
+      ]
+    },
+    "fdot_1": {
+      "tau": 88.3735258544968,
+      "ess": 1303.5578119817446,
+      "mean_shift_in_nessai_sigma": 0.006741515121630643,
+      "std_ratio": 0.956104009614821,
+      "quantile_shift_in_nessai_sigma": [
+        0.018653157441345037,
+        0.040501161040606214,
+        0.09155268547566642
+      ]
+    },
+    "longitude_1": {
+      "tau": 89.41285195350582,
+      "ess": 1288.4053856139535,
+      "mean_shift_in_nessai_sigma": 0.001104567070192399,
+      "std_ratio": 0.9742918450928704,
+      "quantile_shift_in_nessai_sigma": [
+        0.0031617241594078587,
+        0.02560979284208264,
+        0.056530465063236134
+      ]
+    },
+    "sinbeta_1": {
+      "tau": 96.31139984972111,
+      "ess": 1196.1200873391062,
+      "mean_shift_in_nessai_sigma": 0.00325226249039216,
+      "std_ratio": 0.9852496802682521,
+      "quantile_shift_in_nessai_sigma": [
+        0.024004984726665204,
+        0.03460547237090166,
+        0.07011633476945837
+      ]
+    },
+    "logA_1": {
+      "tau": 79.91971911564673,
+      "ess": 1441.44650750463,
+      "mean_shift_in_nessai_sigma": 0.06501514363450311,
+      "std_ratio": 0.978380731069507,
+      "quantile_shift_in_nessai_sigma": [
+        0.09269856451124105,
+        0.05747274052500762,
+        0.018439813854061463
+      ]
+    },
+    "cosi_1": {
+      "tau": 82.60504168697229,
+      "ess": 1394.5880014992874,
+      "mean_shift_in_nessai_sigma": 0.04032338589606642,
+      "std_ratio": 0.9759126467647727,
+      "quantile_shift_in_nessai_sigma": [
+        0.01824418134846467,
+        0.034826056139889344,
+        0.06298501527067205
+      ]
+    },
+    "phase_1": {
+      "tau": 84.17809126050533,
+      "ess": 1368.5271104982814,
+      "mean_shift_in_nessai_sigma": 0.020597272017151707,
+      "std_ratio": 0.9491277633513124,
+      "quantile_shift_in_nessai_sigma": [
+        0.07275847487554689,
+        0.0012167507329103205,
+        0.05738239407054137
+      ]
+    },
+    "psi_1": {
+      "tau": 84.3803511011297,
+      "ess": 1365.2467487594713,
+      "mean_shift_in_nessai_sigma": 0.02074974619639194,
+      "std_ratio": 0.9781095964474272,
+      "quantile_shift_in_nessai_sigma": [
+        0.02550811928457801,
+        0.02750853814992177,
+        0.07033412378779065
+      ]
+    },
+    "df_2": {
+      "tau": 76.10197559733733,
+      "ess": 1513.7583367025052,
+      "mean_shift_in_nessai_sigma": 0.013788546615499008,
+      "std_ratio": 0.9975907856731343,
+      "quantile_shift_in_nessai_sigma": [
+        0.01576134452147572,
+        0.01371698897761156,
+        0.02711338525154489
+      ]
+    },
+    "fdot_2": {
+      "tau": 76.95505354408789,
+      "ess": 1496.9777122434384,
+      "mean_shift_in_nessai_sigma": 0.017924317624442257,
+      "std_ratio": 1.0023935585865493,
+      "quantile_shift_in_nessai_sigma": [
+        0.0107655342061442,
+        0.021602314428932554,
+        0.006323768142481429
+      ]
+    },
+    "longitude_2": {
+      "tau": 86.79667670619517,
+      "ess": 1327.239755848596,
+      "mean_shift_in_nessai_sigma": 0.0687303390294964,
+      "std_ratio": 0.9949895132225972,
+      "quantile_shift_in_nessai_sigma": [
+        0.09753892365530549,
+        0.07410563686073326,
+        0.07795482688792266
+      ]
+    },
+    "sinbeta_2": {
+      "tau": 73.44855270230612,
+      "ess": 1568.444792464685,
+      "mean_shift_in_nessai_sigma": 0.034940432992582565,
+      "std_ratio": 0.9994685293556907,
+      "quantile_shift_in_nessai_sigma": [
+        0.012429900293777012,
+        0.04289545254256962,
+        0.03285061208207082
+      ]
+    },
+    "logA_2": {
+      "tau": 95.29640572470184,
+      "ess": 1208.8598633278666,
+      "mean_shift_in_nessai_sigma": 0.06266943231985343,
+      "std_ratio": 0.9825063109388307,
+      "quantile_shift_in_nessai_sigma": [
+        0.021094573337341403,
+        0.0696121721852782,
+        0.08483199052057731
+      ]
+    },
+    "cosi_2": {
+      "tau": 93.54193152852446,
+      "ess": 1231.5332612612472,
+      "mean_shift_in_nessai_sigma": 0.06309284339549681,
+      "std_ratio": 0.9936851978748711,
+      "quantile_shift_in_nessai_sigma": [
+        0.08590453268177878,
+        0.07229584684934408,
+        0.042187138893525336
+      ]
+    },
+    "phase_2": {
+      "tau": 137.16556751100364,
+      "ess": 839.8609220259193,
+      "mean_shift_in_nessai_sigma": 0.0654092627395394,
+      "std_ratio": 1.0066665047880938,
+      "quantile_shift_in_nessai_sigma": [
+        0.012592213113767075,
+        0.13554917046746337,
+        0.016007453883245426
+      ]
+    },
+    "psi_2": {
+      "tau": 136.9788621571712,
+      "ess": 841.0056718664968,
+      "mean_shift_in_nessai_sigma": 0.06370256523501383,
+      "std_ratio": 1.0089106333692954,
+      "quantile_shift_in_nessai_sigma": [
+        0.0027919299552184784,
+        0.15702454666604546,
+        0.005500590126245174
+      ]
+    }
+  },
+  "data_sha256": "25be4dde0536a507614e00bb5dc8545a479152c45be68df3069acb1c5f7c7263",
+  "nessai_posterior_sha256": "ceab64fe289e03d9548eb92fc40640c588d715630fb7f0bfcc1dfda9d10c7a8a"
+}

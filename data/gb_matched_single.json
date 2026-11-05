@@ -1,0 +1,97 @@
+{
+  "case": "single",
+  "label": "single",
+  "sampler": "nessai",
+  "version": "0.14.0.post0",
+  "nlive": 500,
+  "stopping": 0.05,
+  "seed": 20261121,
+  "pool": 4,
+  "elapsed_seconds": 95.89723992347717,
+  "dimension": 8,
+  "posterior_draws": 2558,
+  "physical_columns": [
+    "f0",
+    "fdot0",
+    "longitude",
+    "latitude",
+    "A",
+    "inclination",
+    "phase0",
+    "psi"
+  ],
+  "sampled_coordinates": [
+    "df_1",
+    "fdot_1",
+    "longitude_1",
+    "sinbeta_1",
+    "logA_1",
+    "cosi_1",
+    "phase_1",
+    "psi_1"
+  ],
+  "bounds": {
+    "df_1": [
+      -3.0,
+      3.0
+    ],
+    "fdot_1": [
+      0.0,
+      15.0
+    ],
+    "longitude_1": [
+      4.1494617966939025,
+      4.849461796693902
+    ],
+    "sinbeta_1": [
+      -0.5637237690081303,
+      -0.06372376900813026
+    ],
+    "logA_1": [
+      0.019979330894693226,
+      3.238855155762894
+    ],
+    "cosi_1": [
+      -1.0,
+      1.0
+    ],
+    "phase_1": [
+      0.0,
+      6.283185307179586
+    ],
+    "psi_1": [
+      0.0,
+      1.5707963267948966
+    ]
+  },
+  "prior_centres": [
+    {
+      "f0": 0.0040000120491376235,
+      "fdot0": 8.316167176479256e-21,
+      "longitude": 4.499461796693902,
+      "latitude": -0.31911226682827065,
+      "A": 5.1009012679787216e-23
+    }
+  ],
+  "data_sha256": "25be4dde0536a507614e00bb5dc8545a479152c45be68df3069acb1c5f7c7263",
+  "noise": "Same seeded noisy data as the corresponding search example.",
+  "model": "One eight-parameter source, or a jointly fitted sum of two eight-parameter sources.",
+  "priors": "Search-local uniform frequency/sky; uniform positive fdot; log-uniform A; uniform cos(iota), phase and polarisation.",
+  "phase_symmetry": "Sample psi in [0,pi/2), then restore psi+pi/2 and phase+pi with equal probability. Exact native waveform symmetry.",
+  "scope": "Known source count; frequency-labelled local modes from the search. No trans-dimensional or global catalogue claim.",
+  "log_evidence": -343.71022386358953,
+  "log_evidence_error": 0.23037290616447276,
+  "final_dlogZ": 0.0499318495950547,
+  "final_insertion_p_value": 0.26627682626582694,
+  "likelihood_evaluations": 130533,
+  "numerical_checks": {
+    "native_injection_relative_errors": [
+      0.0
+    ],
+    "exact_phase_symmetry_relative_errors": [
+      1.1287815445315836e-11
+    ],
+    "benchmark_seconds_per_likelihood": 0.0013670000000000015,
+    "scalar_batch_agree": true
+  }
+}

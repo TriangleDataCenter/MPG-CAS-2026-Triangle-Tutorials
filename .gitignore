@@ -1,0 +1,46 @@
+# ---------------------------------------------------------------------------
+# Results written by the notebooks (sampler chains, result files, figures).
+# Everything listed here is recreated when you run the notebooks.
+# ---------------------------------------------------------------------------
+outputs/
+
+# ---------------------------------------------------------------------------
+# Optional source checkouts of the Triangle packages. Ignore them here in case
+# you clone them next to, or inside, this repository.
+# ---------------------------------------------------------------------------
+Triangle-Simulator/
+Triangle-Simulator-master/
+Triangle-GB/
+Triangle-GB-main/
+Triangle-BBH/
+Triangle-BBH-main/
+
+# ---------------------------------------------------------------------------
+# Instructor-only build inputs and QA records. They stay on the teaching
+# machine for the build/verification scripts but are not part of the published
+# tutorial, and the student notebooks never read them.
+# ---------------------------------------------------------------------------
+execution_report.json
+portability_report.json
+validation_report.json
+figures/31_mbhb_upstream_posterior.png
+data/MicroSateOrbitEclipticTCB/MicroSateOrbit.hdf5
+
+# ---------------------------------------------------------------------------
+# Python / Jupyter clutter
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+.venv/
+
+# ---------------------------------------------------------------------------
+# Editor and operating-system files
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

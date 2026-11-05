@@ -1,0 +1,90 @@
+{
+  "source": "Triangle-BBH/Examples/4_TDC_Verification_MBHB_Search_and_Estimation(CPU).ipynb",
+  "data_url": "https://zenodo.org/records/15469724/files/0_2_MBHB_TDIXYZ.h5?download=1",
+  "parameters_url": "https://zenodo.org/records/15532090/files/0_2_MBHB_parameters.h5?download=1",
+  "source_notebook_sha256": "72b10e16b32bd524784d965b86f4742378e4b11b1c16d0c2ab255e7482f98e94",
+  "input_files": {
+    "0_2_MBHB_TDIXYZ.h5": "d839757a9843c8dc73313040f918ba4f5310a0a8c285990b25a08ae5f140e3e3",
+    "0_2_MBHB_parameters.h5": "4d4c1b791f7e4101b81fad5afd40168ad8015446768344dca9b1af79688331ba"
+  },
+  "processing": "Original cells 4,6,9,11,14: A/E=-AETfromXYZ; five-day cut; Tukey window; absolute-time FFT phase; PSD from earlier signal-free data; retained analysis band.",
+  "Tobs_seconds": 431990.0,
+  "response_options": {
+    "fmin": 5e-05,
+    "fmax": 0.01,
+    "fref": 0.001,
+    "modes": [
+      [
+        2,
+        2
+      ]
+    ],
+    "tmin": 22.50011574074074,
+    "tmax": 27.49988425925926,
+    "tref_at_constellation": true,
+    "TDIGeneration": "2nd",
+    "optimal_combination": true,
+    "drop_T": true,
+    "interpolation_method": null
+  },
+  "searched_parameters": {
+    "chirp_mass": 2995829.3750919206,
+    "mass_ratio": 0.25016414089106065,
+    "spin_1z": 0.39417169755236225,
+    "spin_2z": 0.617363666521194,
+    "reference_time": 24.99762125647844,
+    "longitude": 4.742875856054119,
+    "latitude": 0.19494895405153465,
+    "luminosity_distance": 45197.805530441765,
+    "inclination": 1.2566483836770543,
+    "psi": 0.9881623962834153,
+    "reference_phase": 2.8693758926015587
+  },
+  "original_prior_endpoints": {
+    "chirp_mass": [
+      2983562.1352587347,
+      3008096.6149251065
+    ],
+    "mass_ratio": [
+      0.24374159267337064,
+      0.25658668910875065
+    ],
+    "spin_1z": [
+      0.35477122383102894,
+      0.4335721712736956
+    ],
+    "spin_2z": [
+      0.4373877657418066,
+      0.7973395673005814
+    ],
+    "reference_time": [
+      24.997579426181723,
+      24.997663086775155
+    ]
+  },
+  "original_fisher_errors": {
+    "chirp_mass": 2453.4479666371763,
+    "mass_ratio": 0.001284509643537999,
+    "spin_1z": 0.007880094744266663,
+    "spin_2z": 0.03599518015587748,
+    "reference_time": 8.366059343284023e-06
+  },
+  "injected_parameters": {
+    "chirp_mass": 3000000.0,
+    "coalescence_phase": 1.0471975511965976,
+    "coalescence_time": 25.0,
+    "inclination": 1.2566370614359172,
+    "latitude": 0.5235987755982988,
+    "longitude": 4.71238898038469,
+    "luminosity_distance": 47689.47472418477,
+    "mass_ratio": 0.25,
+    "psi": 0.9424777960769379,
+    "spin_1z": 0.4,
+    "spin_2z": 0.6
+  },
+  "optimal_AE_SNR": 1090.664,
+  "noise": "Original TDC II-0.2 data including instrumental noise, not a zero-noise injection.",
+  "search_F": 594051.8486760556,
+  "fit_provenance": "Intrinsic coordinates recovered at full precision from original printed prior endpoints and sky table. Extrinsic amplitudes recomputed with native FstatisticsFref on the same data.",
+  "posterior_provenance": "Original saved 11D nessai corner image; raw draws were not included in the source notebook. Optional rerun writes a new bilby result."
+}

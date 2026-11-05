@@ -1,0 +1,7 @@
+{
+  "source": "Triangle-Simulator-master/GWData/Demo_EMRI_waveform_data.npz",
+  "source_sha256": "892fbe2fefe4df884dca11be5e47ace5f7c387af141daf08a9a0dd0d75c7c6e3",
+  "content": "Cropped source-frame input polarisations; no TDI response or detector data.",
+  "convention": "h_plus = h1; h_cross = -h2; time in TCB seconds.",
+  "padding_seconds": 5000
+}
